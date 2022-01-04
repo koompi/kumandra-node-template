@@ -1,5 +1,5 @@
 [package]
-name = 'kumandra-kumandra-node-template'
+name = 'kumandra-node-template'
 version = '4.0.0-dev'
 description = 'A fresh FRAME-based Substrate node, ready for hacking.'
 authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
@@ -7,7 +7,7 @@ homepage = 'https://substrate.io/'
 edition = '2021'
 license = 'Unlicense'
 publish = false
-repository = 'https://github.com/koompi/kumandra-kumandra-node-template/'
+repository = 'https://github.com/koompi/kumandra-node-template/'
 build = 'build.rs'
 
 [[bin]]
@@ -169,4 +169,4 @@ version = '4.0.0-dev'
 
 [features]
 default = []
-runtime-benchmarks = ['kumandra-kumandra-node-template-runtime/runtime-benchmarks']
+runtime-benchmarks = ['kumandra-node-template-runtime/runtime-benchmarks']
